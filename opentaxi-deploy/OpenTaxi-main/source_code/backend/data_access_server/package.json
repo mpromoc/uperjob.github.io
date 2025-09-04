@@ -1,0 +1,36 @@
+{
+  "name": "open-taxi-backend",
+  "version": "1.0.0",
+  "description": "Backend server for OpenTaxi application",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "build": "tsc",
+    "dev": "ts-node src/app.ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/OpenTaxi.git"
+  },
+  "keywords": [
+    "taxi",
+    "booking",
+    "backend",
+    "nodejs",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "ts-node": "^10.4.0",
+    "jest": "^27.0.6",
+    "@types/jest": "^27.0.2",
+    "@types/express": "^4.17.13"
+  }
+}
